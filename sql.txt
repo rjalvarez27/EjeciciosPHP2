@@ -1,0 +1,22 @@
+  CREATE TABLE usuarios (
+    id_user INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    apellido VARCHAR(100),
+    edad  INT,
+    cedula INT,
+    email VARCHAR(255) UNIQUE,
+    telefono VARCHAR(100),
+    contrasena VARCHAR(100),
+    pais VARCHAR(100),
+    ciudad VARCHAR(100),
+    calle VARCHAR(100),
+    codigo_postal INT,
+    genero VARCHAR(100),
+    rol VARCHAR(15) DEFAULT 'user',
+    fechaCreacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    fechaActualizacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    );
+
+
+
+   

@@ -1,8 +1,5 @@
 <?php
 
-
-// Obtener datos del formulario usando el metodo get
-
 $add = "";
 $datos = "";
 

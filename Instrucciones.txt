@@ -1,0 +1,4 @@
+// EJERCICIO SECCION 2
+
+/* 1 Realizar un registro de datos que tenga al menos  "12 campos" en la base de datos.
+ Este debe incluir un diseno decente */

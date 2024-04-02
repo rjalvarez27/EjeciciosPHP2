@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($conn->query($sql)) {
             $add = "Usuario registrado";
         } else {
-            $add = 'ERROR';
+            $add = 'Error al registrar Usuario';
         }
         $conn->close();
     }
